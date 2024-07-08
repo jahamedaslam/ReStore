@@ -3,7 +3,7 @@ import { AppBar, Badge, Box, IconButton, List, ListItem, Switch, Toolbar, Typogr
 import { NavLink } from "react-router-dom";
 
 const midLinks = [
-    { title: 'catelog', path: '/catelog' },
+    { title: 'catalog', path: '/catalog' },
     { title: 'about', path: '/about' },
     { title: 'contact', path: '/contact' }
 ];

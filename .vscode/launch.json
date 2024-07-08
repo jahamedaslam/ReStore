@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        
+        {
+            "name": "C#: API",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\API\\API.csproj",
+            "launchConfigurationId": "TargetFramework=;http"
+        }
+    ]
+}
