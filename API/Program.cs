@@ -23,11 +23,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors(opt=>{
-    opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000","http://localhost:3001");
+    opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000");
 });
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
+
+
 app.MapControllers();
 
 var scope = app.Services.CreateScope();
